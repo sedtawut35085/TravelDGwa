@@ -23,6 +23,7 @@ router.post('/register_shuttlepartner',(req,res) => {
 
 router.post('/save_invoice',(req,res) => { 
     console.log('save invoice')
+    console.log('save invoice')
     const infoinvoice = new shuttle_invoice({
         username: req.body.username,
         typereserve: req.body.typereserve,
